@@ -22,12 +22,12 @@ namespace Assignment_1_Two_Joggers
 
             return num1;
         }
+        
         public static Tuple<int, int> NbrOfLaps(int x, int y)
         {
             int gcd = GCD(x, y);
             int lcm = (x * y) / (gcd);
-            Console.WriteLine(gcd);
-            return new Tuple<int, int>(y / lcm, x / lcm);
+            return new Tuple<int, int>(lcm / x, lcm / y);
         }
     }
 }
