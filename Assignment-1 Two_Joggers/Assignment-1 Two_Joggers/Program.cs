@@ -6,7 +6,7 @@ namespace Assignment_1_Two_Joggers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Tuple<int,int> solution = Solution.NbrOfLaps(3, 5);
         }
     }
 }
