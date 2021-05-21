@@ -24,7 +24,7 @@ namespace DepartmentalStore.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseLoggerFactory(ConsoleLoggerFactory).EnableSensitiveDataLogging().UseNpgsql(@"Host=localhost;Database=DepartmentalStoreDB2;Username=postgres;Password=Password12@");
+            optionsBuilder.UseLoggerFactory(ConsoleLoggerFactory).EnableSensitiveDataLogging().UseNpgsql(@"Host=localhost;Database=DepartmentalStoreDB3;Username=postgres;Password=Password12@");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
